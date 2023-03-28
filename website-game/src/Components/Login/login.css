@@ -1,0 +1,46 @@
+body {
+  background: rgb(19, 56, 65);
+}
+
+h1 {
+  text-align: center;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login-form input[type="text"] {
+  margin-bottom: 20px;
+  width: 360px;
+  background-color: black;
+  opacity: 0.3;
+  color: aliceblue;
+  border-radius: 3px;
+  border: 1px solid #1f0b0b;
+
+  padding: 8px;
+  font-size: 20px;
+}
+::placeholder {
+  color: #605c5c;
+}
+button {
+  background-image: linear-gradient(rgb(4, 128, 159), rgb(12, 103, 146));
+  width: 372px;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  font-family: "Blizzard", "Arial", "Helvetica", "Segoe UI Symbol",
+    "Segoe MDL2 Assets", sans-serif;
+  font-size: 17px;
+  border: none;
+  border-radius: 3px;
+}
+button:hover {
+  background-image: linear-gradient(rgb(84, 214, 247), rgb(17, 159, 225));
+}
+.login-form input[type="text"]:focus {
+  border: 1px solid #eb0606;
+}
